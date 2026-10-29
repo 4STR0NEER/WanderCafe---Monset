@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import { AddButton, CartDrawer, CartPill, ItemPicker } from "../components/Cart";
 import Flight from "../components/Flight";
-import { Price, reveal } from "../sections/Kitchen";
+import { Price, reveal } from "../components/ui";
 import { DRINKS, FOOD } from "../data/menu";
 
 const STEPS = [

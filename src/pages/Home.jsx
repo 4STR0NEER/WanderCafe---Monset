@@ -1,16 +1,17 @@
 import Hero from "../sections/Hero";
-import Kitchen from "../sections/Kitchen";
-import Halo from "../sections/Halo";
-import Stay from "../sections/Stay";
+import Spaces from "../sections/Spaces";
+import Amenities from "../sections/Amenities";
+import Location from "../sections/Location";
 
-// /: the landing page, just the two halves of Wander, the cafe and the B&B
+// /: the landing page. The place itself: the cafe and the B&B, what's included, where it is.
+// The food lives on /order.
 export default function Home({ ready }) {
   return (
     <>
       <Hero ready={ready} />
-      <Kitchen />
-      <Halo />
-      <Stay />
+      <Spaces />
+      <Amenities />
+      <Location />
     </>
   );
 }

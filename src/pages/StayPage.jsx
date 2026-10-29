@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { reveal } from "../sections/Kitchen";
+import { reveal } from "../components/ui";
 import BookingForm from "../components/BookingForm";
 import { DEPOSIT_RATE } from "../data/rooms";
 
